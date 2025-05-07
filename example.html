@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    .card {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-body {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .btn {
+      margin-top: auto;
+      align-self: flex-start;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top bg-body-primary nav-style" data-bs-theme="light">
+    <div class="container-fluid nav-style">
+      <a class="navbar-brand" href="#"><img src="Amazon_logo.svg" alt="amazon" height="40px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Delivery to Mumbai 400601</a>
+          </li>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 inp-height" type="search" placeholder="Amazon Search.in" />
+            <button class="btn btn-warning btn-height" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">🇮🇳 EN</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Hindi</a></li>
+              <li><a class="dropdown-item" href="#">Urdu</a></li>
+              <li><a class="dropdown-item" href="#">Gujrati</a></li>
+              <li><a class="dropdown-item" href="#">Marathi</a></li>
+              <li><a class="dropdown-item" href="#">Odisha</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Telugu</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Return & Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa-solid fa-cart-shopping"></i>Add Card</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="banner-section">
+    <div class="banner-overlay">
+      <h1 class="text-white text-center" style="color: black;">Welcome to Amazon Deals</h1>
+      <p class="text-white text-center">Best offers on electronics, mobiles and more</p>
+    </div>
+  </div>
+  
+
+   
+  
+
+
+  <main class="main-overlap">
+
+    <div class="container">
+
+      <div class="row g-4">
+        <!-- CARD TEMPLATE - Repeat for each product -->
+        <div class="col-md-3">
+          <div class="card">
+            <img src="air.webp" class="card-img-top" alt="Air Conditioner">
+            <div class="card-body">
+              <h5 class="card-title">Air Conditioner</h5>
+              <h6>-32%Off&nbsp;&nbsp;&#8377;45,000  
+              </h6>
+              <p class="card-text">Panasonic 1.5 Ton 5 Star Premium Wi-Fi Inverter Smart Split AC...</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="ref.webp" class="card-img-top" alt="Refrigerator">
+            <div class="card-body">
+              <h5 class="card-title">Refrigerator</h5>
+              <h6>-22%Off&nbsp;&nbsp;&#8377;25,000  
+              </h6>
+              <p class="card-text">LG 260 L 3 Star Frost Free Double Door Refrigerator...</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="oven.jpg" class="card-img-top" alt="Smart Watch">
+            <div class="card-body">
+              <h5 class="card-title">Micro Oven</h5>
+              <h6>-26%Off&nbsp;&nbsp;&#8377;17,000  
+              </h6>
+              <p class="card-text">LG 32 L Convection Microwave Oven (MC3286BRUM, Black, Auto Cook Menu, Stainless steel</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="washing.jpg" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">Washing Machine</h5>
+              <h6>-38%Off&nbsp;&nbsp;&#8377;15,000  
+              </h6>
+              <p class="card-text">LG 7 Kg, 5 Star, Direct Drive Technology, Steam Wash, 6 Motion DD,  Washing Machine</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more cards below as needed, every 4 creates a row -->
+        <!-- Example: Samsung, OnePlus, Apple, etc. cards here -->
+        <div class="col-md-3">
+          <div class="card">
+            <img src="mobile1.webp" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">Samsung GalaxyM06</h5>
+              <h6>-12%Off&nbsp;&nbsp;&#8377;17,000  
+              </h6>
+              <p class="card-text">Samsung Galaxy M06 5G (Blazing Black, 4GB RAM, 64GB Storage)</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="mobile2.webp" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">Samsung GalaxyM16 5G</h5>
+              <h6>-10%Off&nbsp;&nbsp;&#8377;25,000  
+              </h6>
+              <p class="card-text">Samsung Galaxy M06 5G (Blazing White, 8GB RAM, 128GB Storage</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="mobile4.webp" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">OnePluse10 5G</h5>
+              <h6>-8%Off&nbsp;&nbsp;&#8377;55,000  
+              </h6>
+              <p class="card-text">OnePlus 10 | Smarter with OnePlus AI (16GB RAM, 512GB Storage Midnight Ocean)</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="mobile5.jpg" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">S23GalaxyUltra</h5>
+              <h6>-2%Off&nbsp;&nbsp;&#8377;1,45,000  
+              </h6>
+              <p class="card-text">Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Black, 12GB, 512GB Storage)</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- thrid row -->
+        <div class="col-md-3">
+          <div class="card">
+            <img src="mobile6.jpg" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">OnePluse13R 5G</h5>
+              <h6>-15%Off&nbsp;&nbsp;&#8377;60,000  
+              </h6>
+              <p class="card-text">OnePlus 13R | Smarter with OnePlus AI (12GB RAM, 256GB Storage Nebula Noir)</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="mobile3.webp" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title"> I Watch G7</h5>
+              <h6>-30%Off&nbsp;&nbsp;&#8377;35,000  
+              </h6>
+              <p class="card-text">Apple Watch Series 10 [GPS + Cellular 42 mm] Smartwatch with Jet Black Aluminium Water Resistant</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="mobile10.webp" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">Safari School Bag</h5>
+              <h6>-50%Off&nbsp;&nbsp;&#8377;5,000  
+              </h6>
+              <p class="card-text">Safari Omega Pro 35L Laptop Backpack with Raincover, 3 compartments, bottle holder, organizer, school bag</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="mobile8.jpg" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">Truke Earphone</h5>
+              <h6>-42%Off&nbsp;&nbsp;&#8377;3,000  
+              </h6>
+              <p class="card-text">True Wireless in Ear Earbuds with 10mm Dynamic Driver, 70Hrs Battery & Fast Charging (Black)</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+    <!-- four box -->
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="mobile9.jpg" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">Adapter 20Wtt</h5>
+              <h6>-32%Off&nbsp;&nbsp;&#8377;2,000  
+              </h6>
+              <p class="card-text">Kratos Power PQ1 20 W Charger Adapter, Dual Port (20W USB + 20W Type C), Supports PD Charging via Type C Port, Compatible with Smartphones, Tablets & Smartwatch, Fast Charger Type c,White</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="mobile7.jpg" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">Bolt Head Phone</h5>
+              <h6>-62%Off&nbsp;&nbsp;&#8377;1,500 
+              </h6>
+              <p class="card-text">Boult Q Over Ear Bluetooth Headphones with 70H Playtime, 40mm Bass Drivers, Zen™ ENC Mic, Type-C Fast Charging, 4 EQ Modes, Bluetooth 5.4, AUX Option, Easy Controls, IPX5 Wireless Headphones (Black)</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="ear.jpg" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">Boat Rockerz 255 Pro</h5>
+              <h6>-50%Off&nbsp;&nbsp;&#8377;2,500 
+              </h6>
+              <p class="card-text">Boat Rockerz 255 Pro+, 60HRS Battery, Fast Charge, IPX7, Dual Pairing, Low Latency, Magnetic Earbuds, Bluetooth Neckband, Wireless with Mic Earphones (Active Black)</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="iphone.jpg" class="card-img-top" alt="Pickle">
+            <div class="card-body">
+              <h5 class="card-title">I Phone16</h5>
+              <h6>-9%Off&nbsp;&nbsp;&#8377;75,000 
+              </h6>
+              <p class="card-text">iPhone 16 256 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Ultramarine</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+       
+
+        
+      </div>
+    </div>
+
+   
+  
+</main>
+    
+<footer class="footer-section">
+  <div class="container">
+    <div class="row text-white py-4">
+      <div class="col-md-3">
+        <h5>Get to Know Us</h5>
+        <ul class="list-unstyled">
+          <li>About Amazon</li>
+          <li>Careers</li>
+          <li>Press Releases</li>
+          <li>Amazon Science</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Connect with Us</h5>
+        <ul class="list-unstyled">
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Make Money with Us</h5>
+        <ul class="list-unstyled">
+          <li>Sell on Amazon</li>
+          <li>Become an Affiliate</li>
+          <li>Advertise Your Products</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5>Let Us Help You</h5>
+        <ul class="list-unstyled">
+          <li>Your Account</li>
+          <li>Returns Centre</li>
+          <li>Help</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="rom">
+    <img src="Amazon_logo.svg" alt="">&nbsp;&nbsp;
+    <!-- <p style="margin-top: 2px;">Amazon.In</p>
+     -->
+  </div>
+ 
+
+</footer>
+
+
+
+
+
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

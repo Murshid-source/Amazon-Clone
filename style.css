@@ -1,0 +1,188 @@
+.inp-height{
+    height: 40px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+.btn-height{
+    height: 40px;
+    text-align: center;
+}
+
+.nav-style{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(84, 75, 75);
+
+}
+/* .navbar-brand img {
+  background-color: rgb(84, 75, 75);
+
+  padding: 5px;
+  border-radius: 5px;
+} */
+
+
+/* nav a,form,button,input {
+    color: white;
+} */
+
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .dropdown-toggle,
+.navbar .dropdown-item 
+{
+    color: white !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover {
+    color: #ffc107 !important; /* Optional: add hover effect */
+    
+}
+
+.dropdown-menu {
+  background-color: rgb(84, 75, 75); /* or another color that suits your design */
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: #fff;  /* Highlight on hover */
+  color: black !important;
+}
+
+
+.banner-section {
+    background-image: url('shoes.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  
+ /* Full background banner with hero image */
+.banner-section {
+    background-image: url('shoes.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+  }
+  
+  .banner-overlay {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Cards should rise into the banner image */
+  .main-overlap {
+    margin-top: -100px; Pull cards upward into banner
+    z-index: 10;
+    position: relative;
+    m
+  }
+  
+  /* Optional: Add shadow to make cards stand out */
+  .card {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
+  
+  .row {
+    margin-top: 0;
+  }
+  
+
+.row img {
+    object-fit: contain ;
+    height: 150px;
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+
+ .row2{
+    display: flex ;
+    justify-content: space-between;
+ }
+ .row3{
+    display: flex ;
+    justify-content: space-between;
+
+ }
+.row4{
+    display: flex ;
+    justify-content: space-between;
+}
+
+
+.section2 li{
+    list-style: none;
+}
+.section2 ul{
+    margin-top: 30px;
+} 
+
+.footer-section {
+    background-color: #232F3E;
+    color: white;
+    margin-top: 30px;
+  }
+  .footer-section h5 {
+    margin-bottom: 1rem;
+  }
+  .footer-section ul {
+    padding-left: 0;
+  }
+  .footer-section li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  .footer-section li:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+
+  .rom{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+  }
+
+  .rom img{
+    height: 30px;
+    background-color: white;
+   padding: 5px;
+   border-radius: 5px;
+   width: 80px;
+    
+    
+  }
+  
